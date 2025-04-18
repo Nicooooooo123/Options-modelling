@@ -16,6 +16,17 @@ warnings.filterwarnings('ignore')
 # Page setup
 # -----------------------------------------------------------------------------
 ui.setup_page_config()
+import streamlit as st
+
+st.markdown("""
+  <style>
+    /* force light-ish backgrounds even if dark theme is active */
+    .css-18e3th9 { background-color: #f0f2f6 !important; }
+    .css-1d391kg { background-color: #ffffff !important; }
+    /* override sidebar to light too */
+    [data-testid="stSidebar"] { background-color: #ffffff !important; }
+  </style>
+""", unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------
 # Header & ticker input
