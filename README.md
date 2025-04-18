@@ -2,6 +2,8 @@
 
 Welcome to **VegaDelta Options Modelling**, the turbocharged toolkit that transforms the black‑box world of options Greeks and volatility surfaces into your very own playground. Whether you’re a seasoned quant, a risk manager, or a volatility novice, **VegaDelta** delivers speed, precision, and panache in one electrifying package.
 
+I created VegaDelta because there are no free web applications where you can observe the volatility surface for options. That simple project bloomed into a full website which anybody can visit and use (without logging in) at vegadelta.com 
+I truly enjoyed creating this website and I hope you will enjoy using it as much as i did creating it! Thank you so much!
 ---
 
 ## ⚙️ Key Features
@@ -67,7 +69,6 @@ The result? An arbitrage‑free, ultra‑smooth volatility surface you can trust
 
 ## 🏆 Why VegaDelta?
 
-- **Blazing Speed**: Optimized numpy & SciPy routines make heavy computations feel frictionless.
 - **Full Transparency**: Open‑source code, clear math, and interactive visualizations mean you can audit every step.
 - **Modular Design**: Swap in your own volatility model or add custom Greeks with minimal code changes.
 - **Interactive UI**: Streamlit powers a responsive, mobile‑friendly frontend—no installs, just browse and explore.
